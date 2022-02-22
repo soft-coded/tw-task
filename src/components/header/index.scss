@@ -1,0 +1,36 @@
+.header-wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 0;
+}
+
+.app-header {
+	margin-top: 40vh;
+	transform: translateY(-50%);
+	flex-direction: column;
+	gap: 16px;
+
+	.title {
+		gap: 8px;
+
+		h1 {
+			font-size: 3rem;
+			font-weight: 700;
+			margin: 0;
+		}
+
+		.image-container {
+			height: 125px;
+		}
+	}
+
+	.search-bar {
+		gap: 8px;
+	}
+}
+
+.error {
+	color: red;
+	font-weight: 500;
+	text-align: center;
+}
